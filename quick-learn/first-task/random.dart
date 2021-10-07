@@ -7,7 +7,7 @@ main(List<String> args) {
   int randomNumber = random.nextInt(3000);
   var guess;
   do {
-    stdout.writeln('Guess the correct number: ?');
+    stdout.writeln('Guess the correct number: ');
     guess = stdin.readLineSync();
     if (guess == randomNumber) {
       print('You guessed correctly');
