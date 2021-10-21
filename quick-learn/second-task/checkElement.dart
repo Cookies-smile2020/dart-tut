@@ -3,9 +3,9 @@ bool checkElement(checkItem, element) {
 }
 
 main() {
-  List checkItem = ['ringLight', 'ps4', 'macBook'];
+  List checkItem = ['ringlight', 'playstation', 'macbook'];
 
-  String element = 'ringLight';
+  String element = 'ringlight';
   bool verifyElement = checkElement(checkItem, element);
   if (verifyElement) {
     print('$element is present in the list: $checkItem');
